@@ -1,0 +1,35 @@
+digraph BarabasiAlbert_nodes_10_GradoMax_5 {
+"nodo_0 (inf)";
+"nodo_1 (inf)";
+"nodo_2 (inf)";
+"nodo_3 (inf)";
+"nodo_4 (inf)";
+"nodo_5 (inf)";
+"nodo_6 (inf)";
+"nodo_7 (inf)";
+"nodo_8 (inf)";
+"nodo_9 (inf)";
+"nodo_0 (inf)" -> "nodo_1 (inf)" [weight=20];
+"nodo_0 (inf)" -> "nodo_3 (inf)" [weight=12];
+"nodo_0 (inf)" -> "nodo_4 (inf)" [weight=7];
+"nodo_0 (inf)" -> "nodo_6 (inf)" [weight=26];
+"nodo_0 (inf)" -> "nodo_9 (inf)" [weight=8];
+"nodo_1 (inf)" -> "nodo_2 (inf)" [weight=18];
+"nodo_1 (inf)" -> "nodo_4 (inf)" [weight=10];
+"nodo_1 (inf)" -> "nodo_5 (inf)" [weight=16];
+"nodo_2 (inf)" -> "nodo_3 (inf)" [weight=23];
+"nodo_2 (inf)" -> "nodo_4 (inf)" [weight=28];
+"nodo_2 (inf)" -> "nodo_5 (inf)" [weight=12];
+"nodo_2 (inf)" -> "nodo_8 (inf)" [weight=15];
+"nodo_3 (inf)" -> "nodo_1 (inf)" [weight=27];
+"nodo_3 (inf)" -> "nodo_6 (inf)" [weight=17];
+"nodo_3 (inf)" -> "nodo_7 (inf)" [weight=29];
+"nodo_4 (inf)" -> "nodo_5 (inf)" [weight=15];
+"nodo_4 (inf)" -> "nodo_8 (inf)" [weight=5];
+"nodo_5 (inf)" -> "nodo_9 (inf)" [weight=16];
+"nodo_6 (inf)" -> "nodo_5 (inf)" [weight=9];
+"nodo_6 (inf)" -> "nodo_8 (inf)" [weight=18];
+"nodo_6 (inf)" -> "nodo_9 (inf)" [weight=3];
+"nodo_7 (inf)" -> "nodo_8 (inf)" [weight=1];
+"nodo_8 (inf)" -> "nodo_9 (inf)" [weight=22];
+}

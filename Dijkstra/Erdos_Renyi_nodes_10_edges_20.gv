@@ -1,0 +1,27 @@
+digraph Erdos_Renyi_nodes_10_edges_20 {
+"nodo_0 (inf)";
+"nodo_1 (inf)";
+"nodo_2 (inf)";
+"nodo_3 (inf)";
+"nodo_4 (inf)";
+"nodo_5 (inf)";
+"nodo_6 (inf)";
+"nodo_7 (inf)";
+"nodo_8 (inf)";
+"nodo_9 (inf)";
+"nodo_1 (inf)" -> "nodo_4 (inf)" [weight=9];
+"nodo_0 (inf)" -> "nodo_9 (inf)" [weight=24];
+"nodo_4 (inf)" -> "nodo_5 (inf)" [weight=17];
+"nodo_8 (inf)" -> "nodo_3 (inf)" [weight=2];
+"nodo_7 (inf)" -> "nodo_6 (inf)" [weight=9];
+"nodo_1 (inf)" -> "nodo_3 (inf)" [weight=18];
+"nodo_3 (inf)" -> "nodo_9 (inf)" [weight=2];
+"nodo_7 (inf)" -> "nodo_2 (inf)" [weight=12];
+"nodo_5 (inf)" -> "nodo_2 (inf)" [weight=16];
+"nodo_6 (inf)" -> "nodo_4 (inf)" [weight=19];
+"nodo_1 (inf)" -> "nodo_0 (inf)" [weight=24];
+"nodo_1 (inf)" -> "nodo_8 (inf)" [weight=6];
+"nodo_2 (inf)" -> "nodo_9 (inf)" [weight=2];
+"nodo_2 (inf)" -> "nodo_3 (inf)" [weight=26];
+"nodo_8 (inf)" -> "nodo_2 (inf)" [weight=19];
+}

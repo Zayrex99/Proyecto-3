@@ -1,0 +1,21 @@
+digraph BarabasiAlbert_nodes_10_GradoMax_5_Dijkstra_nodeSource_5 {
+"nodo_0 (20)";
+"nodo_9 (12)";
+"nodo_8 (20)";
+"nodo_4 (15)";
+"nodo_3 (26)";
+"nodo_6 (9)";
+"nodo_7 (21)";
+"nodo_1 (16)";
+"nodo_5 (0)";
+"nodo_2 (12)";
+"nodo_9 (12)" -> "nodo_0 (20)" [weight=8];
+"nodo_4 (15)" -> "nodo_8 (20)" [weight=5];
+"nodo_6 (9)" -> "nodo_3 (26)" [weight=17];
+"nodo_8 (20)" -> "nodo_7 (21)" [weight=1];
+"nodo_6 (9)" -> "nodo_9 (12)" [weight=3];
+"nodo_5 (0)" -> "nodo_1 (16)" [weight=16];
+"nodo_5 (0)" -> "nodo_4 (15)" [weight=15];
+"nodo_5 (0)" -> "nodo_2 (12)" [weight=12];
+"nodo_5 (0)" -> "nodo_6 (9)" [weight=9];
+}

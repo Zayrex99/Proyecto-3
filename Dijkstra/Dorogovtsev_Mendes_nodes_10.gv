@@ -1,0 +1,29 @@
+digraph Dorogovtsev_Mendes_nodes_10 {
+"nodo_0 (inf)";
+"nodo_1 (inf)";
+"nodo_2 (inf)";
+"nodo_3 (inf)";
+"nodo_4 (inf)";
+"nodo_5 (inf)";
+"nodo_6 (inf)";
+"nodo_7 (inf)";
+"nodo_8 (inf)";
+"nodo_9 (inf)";
+"nodo_0 (inf)" -> "nodo_1 (inf)" [weight=22];
+"nodo_1 (inf)" -> "nodo_2 (inf)" [weight=22];
+"nodo_2 (inf)" -> "nodo_0 (inf)" [weight=10];
+"nodo_3 (inf)" -> "nodo_0 (inf)" [weight=11];
+"nodo_3 (inf)" -> "nodo_1 (inf)" [weight=27];
+"nodo_4 (inf)" -> "nodo_1 (inf)" [weight=4];
+"nodo_4 (inf)" -> "nodo_2 (inf)" [weight=17];
+"nodo_5 (inf)" -> "nodo_0 (inf)" [weight=24];
+"nodo_5 (inf)" -> "nodo_1 (inf)" [weight=24];
+"nodo_6 (inf)" -> "nodo_3 (inf)" [weight=11];
+"nodo_6 (inf)" -> "nodo_1 (inf)" [weight=26];
+"nodo_7 (inf)" -> "nodo_4 (inf)" [weight=19];
+"nodo_7 (inf)" -> "nodo_1 (inf)" [weight=26];
+"nodo_8 (inf)" -> "nodo_1 (inf)" [weight=1];
+"nodo_8 (inf)" -> "nodo_2 (inf)" [weight=20];
+"nodo_9 (inf)" -> "nodo_2 (inf)" [weight=29];
+"nodo_9 (inf)" -> "nodo_0 (inf)" [weight=27];
+}
